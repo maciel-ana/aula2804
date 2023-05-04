@@ -17,6 +17,17 @@ public class CalculadoraSimples{
             op = input.nextInt();
 
             if (op == 1) {
+                 //Beatriz Mayumi
+            //Entrada
+            System.out.println("informe n1:");
+            n1 = input.nextInt(); 
+            System.out.println("Informe n2:");
+            n2 = input.nextInt();
+            //Processamento
+            total = n1 + n2;
+            //Saída 
+            System.out.printf("%d + %d = %d", n1, n2 , total);
+                 
                 System.out.println("\n\t\t\t -- Soma -- \n");
             } else if(op == 2){
                 System.out.println("\n\t\t\t -- Subtração--\n");
